@@ -60,9 +60,9 @@ extra:
 nav:
   - Início: index.md
   - Sobre o Autor: about.md
-  - Introdução ao Apache Airflow:
-      - Sobre o Apache Airflow: 1 - Introdução ao Apache Airflow/Sobre o Apache Airflow.md
-      - Preparação do projeto: 1 - Introdução ao Apache Airflow/Preparação do projeto.md
+  - Introdução ao MongoDB:
+      - Sobre o MongoDB: 1 - Introdução ao MongoDB/Sobre o MongoDB.md
+      - Instalação do MongoDB: 1 - Introdução ao MongoDB/Manual de instalação do MongoDB.md
       - Preparação do Airflow: 1 - Introdução ao Apache Airflow/Preparação do Airflow.md
       - Exercício 01: 1 - Introdução ao Apache Airflow/Exercício 01.md
   - Entendendo e criando DAGs:
