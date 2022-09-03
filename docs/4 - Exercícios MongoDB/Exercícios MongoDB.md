@@ -10,7 +10,7 @@ O arquivo JSON abaixo possui todas as informações da lista de Seu Anselmo. A p
 
 - Solução
 
-  ```python
+```python
   import json
   from pprint import pprint
   from pymongo import MongoClient
@@ -21,16 +21,16 @@ O arquivo JSON abaixo possui todas as informações da lista de Seu Anselmo. A p
   collection = database["carros"]
 
   with open('data.json') as file:
-      fileData = json.load(file)
+    fileData = json.load(file)
 
   if isinstance(fileData, list):
-      collection.insert_many(fileData)
+    collection.insert_many(fileData)
   else:
-      collection.insert_one(fileData)
+    collection.insert_one(fileData)
 
   data = list(collection.find())
   pprint(data)
-  ```
+```
 
 - Resultado
   ![Exercício 1](Untitled.png)
@@ -49,7 +49,7 @@ Dica: Veículos adquiridos são removidos da lista e veículos de interesse são
 
 - Solução
 
-  ```bash
+```python
   from pprint import pprint
   from pymongo import MongoClient
 
@@ -70,7 +70,7 @@ Dica: Veículos adquiridos são removidos da lista e veículos de interesse são
 
   data = list(collection.find())
   pprint(data)
-  ```
+```
 
 - Resultado
   ![Exercício 2](Untitled 1.png)
@@ -81,7 +81,7 @@ Após as modificações realizadas, exporte o banco de dados como um novo arquiv
 
 - Solução
 
-  ```bash
+```python
   from textwrap import indent
   from bson.json_util import dumps
   from pymongo import MongoClient
@@ -97,7 +97,7 @@ Após as modificações realizadas, exporte o banco de dados como um novo arquiv
 
   with open('data1.json', 'w') as file:
     file.write(jsonData)
-  ```
+```
 
 - Resultado
   [data1.json](4 - Exercícios MongoDB/data1.json)

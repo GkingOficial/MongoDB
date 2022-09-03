@@ -2,7 +2,7 @@ copyright: Copyright &copy; 2022 Daniel Alencar Penha Carvalho
 
 # Site
 site_name: MongoDB
-site_url: https://ahayasic.github.io/Apache-Airflow
+site_url: https://github.com/GkingOficial/MongoDB
 site_author: Talisson Cardoso Damião
 
 # Repository
@@ -13,7 +13,7 @@ repo_url: https://github.com/GkingOficial/MongoDB
 theme:
   name: material
   language: pt
-  logo: assets/logo1.png
+  logo: assets/mongodb-logo.png
 
   # Features
   features:
@@ -53,7 +53,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/daniel746/
+      link: https://www.linkedin.com/in/talisson-damiao/
     - icon: fontawesome/brands/github
       link: https://github.com/GkingOficial
 
