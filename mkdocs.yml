@@ -13,7 +13,7 @@ repo_url: https://github.com/GkingOficial/MongoDB
 theme:
   name: material
   language: pt
-  logo: assets/mongodb-logo.png
+  logo: assets/mongo.png
 
   # Features
   features:
@@ -61,7 +61,6 @@ nav:
   - Início: index.md
   - Sobre o Autor: about.md
   - Introdução ao MongoDB:
-      - Sobre o MongoDB: 1 - Introdução ao MongoDB/Sobre o MongoDB.md
       - Instalação do MongoDB: 1 - Introdução ao MongoDB/Manual de instalação do MongoDB.md
       - Instalação do MongoDB Compass: 1 - Introdução ao MongoDB/Manual de instalação do MongoDB Compass.md
   - Execução e CRUD MongoDB:

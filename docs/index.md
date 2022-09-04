@@ -1,17 +1,9 @@
-# Welcome to MkDocs
+# Sobre o MongoDB
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+É um [banco de dados](https://www.treinaweb.com.br/blog/o-que-e-banco-de-dados/) opensource, de alta performance e flexível, sendo considerado o principal banco de dados [NoSQL](https://www.treinaweb.com.br/blog/os-principais-sgbds-nosql/). Os banco de dados NoSQL apresentam algumas vantagens sobre os outros tipos, principalmente quando precisamos de escalabilidade, flexibilidade, bom desempenho e facilidade para consultas.
 
-## Commands
+O MongoDB é orientado a documentos, ou seja, os dados são armazenados como documentos, ao contrário de bancos de dados de modelo relacional, onde trabalhamos com registros em linhas e colunas. Os documentos podem ser descritos como dados no formato de chave-valor, no caso, utilizando o formato [JSON (JavaScript Object Notation)](https://www.treinaweb.com.br/blog/o-que-e-json/).
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Organizações de todos os tamanhos estão usando o MongoDB pois ele permite que as empresas sejam mais ágeis e escaláveis, permitindo que os esquemas mudem rapidamente à medida que os aplicativos evoluem, sempre fornecendo as funcionalidades que os desenvolvedores esperam dos bancos de dados tradicionais.
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Foi desenvolvido para oferecer escalabilidade, desempenho e alta disponibilidade, desde a implantação de um único servidor até grandes arquiteturas complexas de vários centros de dados. A replicação nativa do MongoDB e a tolerância automática a falhas oferecem confiabilidade e flexibilidade operacional em toda a empresa.
