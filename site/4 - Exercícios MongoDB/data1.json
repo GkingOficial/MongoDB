@@ -1,0 +1,50 @@
+[
+  {
+    "_id": {
+      "$oid": "630fe0be91f13d18e618d54e"
+    },
+    "marca": "Acura",
+    "modelo": "Integra",
+    "ano": 1992
+  },
+  {
+    "_id": {
+      "$oid": "630fe0be91f13d18e618d54f"
+    },
+    "marca": "Acura",
+    "modelo": "Legend",
+    "ano": 1990
+  },
+  {
+    "_id": {
+      "$oid": "630fe0be91f13d18e618d550"
+    },
+    "marca": "Lotus",
+    "modelo": "Elan",
+    "ano": 1995
+  },
+  {
+    "_id": {
+      "$oid": "630fe0be91f13d18e618d551"
+    },
+    "marca": "Isuzu",
+    "modelo": "Hombre",
+    "ano": 1995
+  },
+  {
+    "_id": {
+      "$oid": "630fe0be91f13d18e618d552"
+    },
+    "marca": "Bugre",
+    "modelo": "Buggy",
+    "ano": 1985
+  },
+  {
+    "_id": {
+      "$oid": "630fe1b6176f991c95f00f27"
+    },
+    "marca": "Daewoo",
+    "modelo": "Tico",
+    "ano": 1994
+  }
+]
