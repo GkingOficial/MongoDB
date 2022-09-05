@@ -1,0 +1,26 @@
+[{
+  "marca":"Acura",
+  "modelo": "Integra",
+  "ano": 1992
+ },
+ {
+  "marca":"Acura",
+  "modelo": "Legend",
+  "ano": 1997
+ },
+ {
+   "marca":"Lotus",
+   "modelo": "Elan",
+   "ano": 1995
+ },
+ { 
+   "marca":"Isuzu",
+   "modelo": "Hombre",
+   "ano": 1995
+},
+{
+  "marca": "Bugre",
+  "modelo": "Buggy",
+  "ano": 1985
+}
+]
